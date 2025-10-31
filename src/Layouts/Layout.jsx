@@ -1,10 +1,14 @@
 import React from 'react';
 import { Outlet } from 'react-router';
+import Navbar from '../pages/Navbar';
+import Footer from '../pages/Footer';
 
 const Layout = () => {
     return (
         <div>
+            <Navbar/>
             <Outlet/>
+            <Footer/>
             
         </div>
     );

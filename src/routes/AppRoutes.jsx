@@ -4,6 +4,7 @@ import Login from "../pages/Login";
 import Layout from "../Layouts/Layout";
 import Erroepage from "../Errors/Erroepage";
 import Home from "../pages/Home";
+import Signup from "../pages/Signup";
 
 const AppRoutes = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const AppRoutes = createBrowserRouter([
       {
         path: "/login",
         element: <Login />,
+      },
+      {
+        path: "/Signup",
+        element: <Signup />,
       },
     ],
   },

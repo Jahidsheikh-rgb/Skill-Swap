@@ -1,9 +1,13 @@
 import React from 'react';
+import Hero from './Hero';
+import Herotext from './Herotext';
 
 const Home = () => {
     return (
         <div>
-            home
+            <Herotext/>
+            <Hero/>
+            
         </div>
     );
 };
